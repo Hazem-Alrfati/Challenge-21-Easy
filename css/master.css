@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+  background-color: #EEE;
+  width: 335px;
+  padding: 20px;
+  margin: 40px auto;
+}
+
+.container > div:first-child {
+  width: 295px;
+  height: 275px;
+  background-image: url("../imgs/Apple-Watch-Feature-Art.jpg");
+  background-size: cover;
+}
+
+.container .box {
+  background-color: white;
+  padding: 10px;
+}
+
+.container h4 {
+  font-size: 20px;
+  color: #545454;
+  margin-bottom: 10px;
+}
+
+.container h4 + div {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #9D9D9D;
+}
+
+.container h4 + div i {
+  color: #545454;
+  font-size: 12px;
+}
+
+.container h4 + div span {
+  font-size: 14px;
+  color: #039789;
+}
+
+.container p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #8D8D8D;
+  margin-bottom: 10px;
+}
+
+.container p + div {
+  margin-bottom: 15px;
+}
+
+.container p + div i {
+  font-size: 12px;
+  margin-right: 3px;
+  color: #019688;
+}
+
+.container p + div span {
+  font-size: 16px;
+  color: #9D9D9D;
+}
+
+.container .level {
+  width: 100%;
+  height: 15px;
+  background-color: #DEDEDE;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.container .level::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 15px;
+  background-color: #009688;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container .box > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .box > div:last-child div div:first-child {
+  color: #515151;
+  font-weight: bold;
+}
+
+.container .box > div:last-child div div:last-child {
+  font-size: 12px;
+  color: #818181;
+}
+
+.container .last {
+  margin-right: 40px;
+}
